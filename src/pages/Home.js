@@ -45,14 +45,14 @@ const sliderTwo = {
 };
 const Home=() =>{
   const [sliderImage,SetSliderImage]=useState([
-    'https://themekaverse.com/images/meka_09.jpg',
-    'https://themekaverse.com/images/meka_01.jpg',
-    'https://themekaverse.com/images/meka_02.jpg',
-    'https://themekaverse.com/images/meka_03.jpg',
-    'https://themekaverse.com/images/meka_04.jpg',
-    'https://themekaverse.com/images/meka_05.jpg',
-    'https://themekaverse.com/images/meka_06.jpg',
-    'https://themekaverse.com/images/meka_07.jpg',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:18/3eceffb6',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:17/6434345f',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:13/62cabb90',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:20/1f82ed93',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0xaadba140ae5e4c8a9ef0cc86ea3124b446e3e46a:7665/3e3c8963',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:26/f330c410',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x4bf29bfb3805cbd24f6fba3194e0ae740d624efe:7/e4b2d95d',
+    'https://img.rarible.com/prod/image/upload/t_big/prod-itemImages/0x3a5051566b2241285be871f650c445a88a970edd:9450/f6db42bd',
     'https://themekaverse.com/images/meka_08.jpg',
   ])
     return (
@@ -110,7 +110,7 @@ const Home=() =>{
     </Col>
     <Col md={6} lg={6} xs={12} sm={12}>
     <video className="various"  autoplay loop>
-        <source src="https://themekaverse.com/images/various.mp4" type="video/mp4"/>
+        <source src="https://img.rarible.com/prod/video/upload/prod-itemAnimations/0xd07dc4262bcdbf85190c01c996b4c06a461d2430:666251/3db86f73#t=0.1" type="video/mp4"/>
         </video>
     </Col>
     </Row>
@@ -338,7 +338,7 @@ const Home=() =>{
       <Row>
         <Col md={4} lg={4} xs={12} sm={12}>
           <h2 className="home-art-title">Matt.B </h2>
-          <img src={sliderImage[0]} className="img-fluid " />
+          <img src={sliderImage[2]} className="img-fluid " />
         </Col>
         <Col md={8} lg={8} xs={12} sm={12}>
         <h2 className="home-art-title">NFTs Artworks </h2>
@@ -355,10 +355,10 @@ const Home=() =>{
 
     
   <div>
-    <img src={sliderImage[4]} className="img-fluid home-art-two pr-2" />
+    <img src={sliderImage[5]} className="img-fluid home-art-two pr-2" />
   </div>
   <div>
-    <img src={sliderImage[1]} className="img-fluid home-art-two  pr-2" />
+    <img src={sliderImage[6]} className="img-fluid home-art-two  pr-2" />
   </div>
 
 
